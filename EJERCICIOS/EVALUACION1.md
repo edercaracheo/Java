@@ -100,15 +100,20 @@ Salida:
 8. Dada la clase con método main() LasEscondidas, que pertenece a un programa
 que se llama LasEscondidas.java. (Valor 2 puntos)
 
-public class LasEscondidas {
+                public class LasEscondidas {
 
-  public static void main(String[] args) {
-  
-   System.out.println("Juguemos a las escondidas.");
-    
-  }
-  
-}
+                  public static void main(String[] args) {
+
+                   System.out.println("Juguemos a las escondidas.");
+                   System.out.println("Tres..."
+
+                  }
+
+                }
+                
+                
+                
+                
 
           a. Debajo de la declaración de impresión System.out.println("Juguemos a las
           escondidas");, usando System.out.print(), genera las siguientes dos declaraciones:
@@ -120,6 +125,20 @@ public class LasEscondidas {
 
           "Uno..."
           "¡Listos o no, aquí voy!"
+          
+           CODIGO:
+           
+                           public class LasEscondidas {
+
+                                  public static void main(String[] args) {
+
+                                   System.out.println("Juguemos a las escondidas.");
+                                   System.out.println("Tres...\n Dos...");
+                                   System.out.println("Uno...\n¡Listos o no, aqui voy!");
+
+                                  }
+
+                                }
 
 
 9. Supón que el siguiente código pertenece al programa Timeline.java el cual tiene
@@ -154,6 +173,19 @@ de tal manera que puedas ver impreso el mensaje: ¡Eres un lenguaje divertido!
 
 c. Escribe la salida del programa.
 
+                public class Timeline {
+                       public static void main(String[] args) {
+                         System.out.println("¡Hola Java!");
+                         System.out.println("Naciste en 1995.");
+                         //Sun Microsystems anunció el lanzamiento de Java en 1995
+                         System.out.println("Fuiste creado por James Gosling.");
+                         /*James Gosling es un ingeniero canadiense que
+                         creó Java mientras trabajaba en Sun Microsystems.
+                         ¡Su número favorito es la raíz cuadrada de 2!*/
+                         System.out.println("¡Eres un lenguaje divertido!");
+                       }
+                     }
+
 
 
 10. Escribe el contenido de un programa en java que lleva por nombre
@@ -177,3 +209,10 @@ d. Debajo del comentario, escribe una declaración que imprima lo siguiente:
 
 e. Escribe la salida del programa.
 
+                public class Evaluacion {
+                       public static void main(String[] args) {
+                           //El método main ejecuta las tareas de la clase
+                         System.out.println("¡Mi primer programa Java desde cero!");
+
+                       }
+                     }
