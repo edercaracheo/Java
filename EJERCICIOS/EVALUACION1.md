@@ -8,19 +8,19 @@ Indicaciones: Pedir responder cada una de las preguntas de manera correcta, brev
 clara, según sea el caso.
 
 1. Java es un lenguaje compilable, lo que significa que el código que escribimos es
-traducido a un lenguaje que la computadora entiende. (Valor 1 punto)
+traducido a un lenguaje que la computadora entiende. (Valor 1 punto) CIERTO
 
         a. Falso
         b. Cierto
 
-2. En Java, ¿cuál es el propósito de escribir comentarios en el código? (Valor 1 punto)
+2. En Java, ¿cuál es el propósito de escribir comentarios en el código? (Valor 1 punto) A
 
         a. Proporcionan notas legibles para humanos que aclaran el pensamiento.
         b. Proporcionan controles que el compilador debe pasar.
         c. Indican cómo se imprimen las palabras en la pantalla.
         d. Sólo están presentes en el código de compilación.
 
-3. El siguiente código se ejecutará sin error. (Valor 1 punto)
+3. El siguiente código se ejecutará sin error. (Valor 1 punto) FALSO
 
 public class LanguagesFacts{
 
@@ -37,7 +37,7 @@ public class LanguagesFacts{
         a. Cierto
         b. Falso
 
-4. ¿Qué imprimirá el siguiente código en la pantalla? (Valor 1 punto)
+4. ¿Qué imprimirá el siguiente código en la pantalla? (Valor 1 punto) A
 
 public class HelloYou{
 
@@ -54,7 +54,7 @@ public class HelloYou{
         c. "¡Hola amigo!"
 
 
-5. ¿Qué le falta a este programa en Java? (Valor 1 punto)
+5. ¿Qué le falta a este programa en Java? (Valor 1 punto) D.- EL METODO MAIN()
 
 public class HechosLenguaje{
 
@@ -68,7 +68,7 @@ public class HechosLenguaje{
           d. El método main().
 
 
-6. ¿Cuál sería el nombre del archivo si contuviera el siguiente código? (Valor 1 punto)
+6. ¿Cuál sería el nombre del archivo si contuviera el siguiente código? (Valor 1 punto) A.-HolaMundo.java
 
 public class HolaMundo{
 
@@ -89,11 +89,12 @@ Mi_Nombre!” donde “Mi_Nombre” sea tú nombre. (Valor 2 punto)
 
         public class HolaTu {
           public static void main(String[] args) {
+          System.out.println("¡Hola Eder!");
           }
           }
 
 Salida:
-¡Hola  ́nombre_del_programador ́!!
+¡Hola  Eder!
 
 
 8. Dada la clase con método main() LasEscondidas, que pertenece a un programa
